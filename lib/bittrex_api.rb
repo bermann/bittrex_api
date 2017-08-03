@@ -102,7 +102,7 @@ module BittrexApi
   private
   def self.make_full_url( method, command, params )
     url = "https://bittrex.com/api/v1.1/#{method}/#{command}"
-    query = params.map { |k,v| "#{k}=#{v}" }.join '&'
+    query = params.delete_if{ |k,v| v.nil? }.map{ |k,v| "#{k}=#{v}" }.join '&'
     "#{url}?#{query}"
   end
 
