@@ -47,3 +47,9 @@ GET requests ( to market and account ) will need authentication, and you will ha
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Donating
+
+Any donation will be very welcome 
+
+BTC address: 17e9toPoPHwfDEXbCxxgVAS7GyzsR1smHZ
